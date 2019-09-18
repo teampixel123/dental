@@ -13,12 +13,33 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/images/slide1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>We’re always available for customers<br>with emergent dental problems.</h5>
+              <p>We’re always available for customers with emergent dental problems.</p>
+              <div class="text-left mt-3">
+                <button class="btn btn-primary btn-dental" type="button" name="button">See all Services</button>
+              </div>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="assets/images/slide2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>We’re always available for customers <br>with emergent dental problems.</h5>
+              <p>We’re always available for customers with emergent dental problems.</p>
+              <div class="text-left mt-3">
+                <button class="btn btn-primary btn-dental" type="button" name="button">See all Services</button>
+              </div>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="assets/images/slide3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>We’re always available for customers <br>with emergent dental problems.</h5>
+              <p>We’re always available for customers with emergent dental problems.</p>
+              <div class="text-left mt-3">
+                <button class="btn btn-primary btn-dental" type="button" name="button">See all Services</button>
+              </div>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

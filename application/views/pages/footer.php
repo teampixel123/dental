@@ -15,32 +15,32 @@
           <h5>Usefull Links</h5>
           <div class="tx-div"></div>
           <ul>
-            <li><i class="fa fa-angle-double-right"></i><a href="#"> Home</a></li>
-            <li><i class="fa fa-angle-double-right"></i><a href="#"> About</a></li>
-            <li><i class="fa fa-angle-double-right"></i><a href="#"> Blogs</a></li>
+            <li><i class="fa fa-angle-double-right"></i><a href="#"> &nbsp;&nbsp;Home</a></li>
+            <li><i class="fa fa-angle-double-right"></i><a href="#"> &nbsp;&nbsp;About</a></li>
+            <li><i class="fa fa-angle-double-right"></i><a href="#"> &nbsp;&nbsp;Blogs</a></li>
           </ul>
         </div>
         <div class="col-md-3">
           <h5>Our Services</h5>
           <div class="tx-div"></div>
           <ul>
-            <li><i class="fa fa-angle-double-right"></i><a href="#"> General and preventive care</a></li>
-            <li><i class="fa fa-angle-double-right"></i><a href="#"> Cosmetic solutions</a></li>
-            <li><i class="fa fa-angle-double-right"></i><a href="#"> Restorative solutions</a></li>
-            <li><i class="fa fa-angle-double-right"></i><a href="#"> Additional treatments</a></li>
+            <li><i class="fa fa-angle-double-right"></i><a href="#"> &nbsp;&nbsp;General and preventive care</a></li>
+            <li><i class="fa fa-angle-double-right"></i><a href="#"> &nbsp;&nbsp;Cosmetic solutions</a></li>
+            <li><i class="fa fa-angle-double-right"></i><a href="#"> &nbsp;&nbsp;Restorative solutions</a></li>
+            <li><i class="fa fa-angle-double-right"></i><a href="#"> &nbsp;&nbsp;Additional treatments</a></li>
           </ul>
         </div>
         <div class="col-md-3">
           <h5>Working Hours</h5>
           <div class="tx-div"></div>
           <ul>
-            <li><i class="fa fa-angle-double-right"></i> Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
-            <li><i class="fa fa-angle-double-right"></i> Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
-            <li><i class="fa fa-angle-double-right"></i> Wednesday: &nbsp;&nbsp;&nbsp;10AM - 9PM</li>
-            <li><i class="fa fa-angle-double-right"></i> Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
-            <li><i class="fa fa-angle-double-right"></i> Friday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
-            <li><i class="fa fa-angle-double-right"></i> Saturday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
-            <li><i class="fa fa-angle-double-right"></i> Sunday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closed</li>
+            <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
+            <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
+            <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Wednesday: &nbsp;&nbsp;&nbsp;10AM - 9PM</li>
+            <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
+            <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Friday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
+            <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Saturday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</li>
+            <li class="mb-0"><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Sunday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closed</li>
           </ul>
         </div>
       </div>

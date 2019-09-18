@@ -35,7 +35,7 @@
         <div class="row">
           <div class="nav-contact-icon col-md-1 align-self-center p-0">
             <div class="text-center">
-              <i class="fa fa-facebook"></i>
+              <i class="fa fa-phone"></i>
             </div>
           </div>
           <div class="nav-contact-text col-md-4 p-0">
@@ -44,7 +44,7 @@
           </div>
           <div class="nav-contact-icon col-md-1 align-self-center p-0">
             <div class="text-center">
-              <i class="fa fa-facebook"></i>
+              <i class="fa fa-clock-o"></i>
             </div>
           </div>
           <div class="nav-contact-text col-md-6 p-0">
@@ -74,9 +74,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Blogs</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Services <i class="fa fa-angle-down"></i>
@@ -86,6 +83,9 @@
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
+        </li>
+        <li class="nav-item last-li">
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
     </div>

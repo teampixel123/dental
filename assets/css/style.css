@@ -98,9 +98,9 @@ h1, h2, h3, h4, h5 {
       .nav-top ul li a {
         color: #74b9ed;
         font-size: 20px;
-        -webkit-transition: 500ms;
-        -o-transition: 500ms;
-        transition: 500ms; }
+        -webkit-transition: 300ms;
+        -o-transition: 300ms;
+        transition: 300ms; }
       .nav-top ul li a:hover {
         color: #fff; }
     .nav-top ul .li-fb {
@@ -132,11 +132,12 @@ h1, h2, h3, h4, h5 {
     width: 40px;
     height: 40px;
     color: #0095e5;
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
-    transition: 500ms; }
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms; }
     .nav-1 .nav-contact-icon div i {
-      padding-top: 10px; }
+      padding-top: 8px;
+      font-size: 22px; }
   .nav-1 .nav-contact-icon:hover div {
     background: #0095e5;
     color: #fff; }
@@ -180,6 +181,21 @@ h1, h2, h3, h4, h5 {
   .nav-menu .active .nav-link {
     font-weight: 800;
     color: #000; }
+  .nav-menu .last-li {
+    margin-left: 35px; }
+
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  bottom: 200px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left; }
+  .carousel-caption h5 {
+    font-size: 36px; }
 
 .about-dental .title {
   text-align: left;
@@ -197,16 +213,16 @@ h1, h2, h3, h4, h5 {
     border-radius: 50%;
     text-align: center;
     margin: auto;
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
-    transition: 500ms; }
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms; }
     .why-choose-us .choose-icon i {
       font-size: 60px;
       padding-top: 45px;
       color: #fff;
-      -webkit-transition: 500ms;
-      -o-transition: 500ms;
-      transition: 500ms; }
+      -webkit-transition: 300ms;
+      -o-transition: 300ms;
+      transition: 300ms; }
   .why-choose-us .choose-icon:hover {
     background: #fff; }
     .why-choose-us .choose-icon:hover i {
@@ -363,9 +379,9 @@ h1, h2, h3, h4, h5 {
       .dental-copy ul li i {
         font-size: 22px;
         color: #828383;
-        -webkit-transition: 500ms;
-        -o-transition: 500ms;
-        transition: 500ms; }
+        -webkit-transition: 300ms;
+        -o-transition: 300ms;
+        transition: 300ms; }
       .dental-copy ul li i:hover {
         color: #fff; }
     .dental-copy ul li + li {
