@@ -80,7 +80,7 @@
                 We invite you to explore the information about our dental office on our website! Feel free to read our terms and conditions and all
                 the additional info we have posted here.
               </p>
-              <p>
+              <p class="mb-0">
                 Once our customer, you will be leaving our dental clinic with a bright, wide smile!
               </p>
             </div>
@@ -179,8 +179,8 @@
     <section class="home-testimonial padding-80">
       <div class="container">
         <h3 class="title">What our patients say</h3>
-        <div class="row">
-          <div class="col-md-4">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
             <div class="testimonial-box text-center">
               <div class="testimonial-img">
                 <img class="web-img" src="assets/images/home_page/testimonial1.jpg" alt="">
@@ -189,13 +189,13 @@
               <p class="testimonial-info mt-2">
                 I urgently required dental help last 4th of July. And despite all other clinics being closed, BeDentist took my appointment!
               </p>
-              <p class="mt-3">
+              <p class="testimonial-info2">
                 <span class="testimonial-name">Herbert Wallace</span>
                 <i class="testimonial-date"> – May 10, 2016</i>
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="item">
             <div class="testimonial-box text-center">
               <div class="testimonial-img">
                 <img class="web-img" src="assets/images/home_page/testimonial2.jpg" alt="">
@@ -204,13 +204,13 @@
               <p class="testimonial-info mt-2">
                 Comparing teeth whitening prices here and elsewhere, I picked BeDentist. The result was beyond my expectations!
               </p>
-              <p class="mt-3">
+              <p class="testimonial-info2">
                 <span class="testimonial-name">Gary Growles</span>
                 <i class="testimonial-date"> – May 10, 2016</i>
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="item">
             <div class="testimonial-box text-center">
               <div class="testimonial-img">
                 <img class="web-img" src="assets/images/home_page/testimonial3.jpg" alt="">
@@ -219,7 +219,52 @@
               <p class="testimonial-info mt-2">
                 Taking my kids to a dentist has never been easier. They just loved the welcoming and warm atmosphere in there!
               </p>
-              <p class="mt-3">
+              <p class="testimonial-info2">
+                <span class="testimonial-name">Daniela Robbery</span>
+                <i class="testimonial-date"> – May 10, 2016</i>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-box text-center">
+              <div class="testimonial-img">
+                <img class="web-img" src="assets/images/home_page/testimonial1.jpg" alt="">
+              </div>
+              <i class="fa fa-quote-left w-100"></i>
+              <p class="testimonial-info mt-2">
+                I urgently required dental help last 4th of July. And despite all other clinics being closed, BeDentist took my appointment!
+              </p>
+              <p class="testimonial-info2">
+                <span class="testimonial-name">Herbert Wallace</span>
+                <i class="testimonial-date"> – May 10, 2016</i>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-box text-center">
+              <div class="testimonial-img">
+                <img class="web-img" src="assets/images/home_page/testimonial2.jpg" alt="">
+              </div>
+              <i class="fa fa-quote-left w-100"></i>
+              <p class="testimonial-info mt-2">
+                Comparing teeth whitening prices here and elsewhere, I picked BeDentist. The result was beyond my expectations!
+              </p>
+              <p class="testimonial-info2">
+                <span class="testimonial-name">Gary Growles</span>
+                <i class="testimonial-date"> – May 10, 2016</i>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-box text-center">
+              <div class="testimonial-img">
+                <img class="web-img" src="assets/images/home_page/testimonial3.jpg" alt="">
+              </div>
+              <i class="fa fa-quote-left w-100"></i>
+              <p class="testimonial-info mt-2">
+                Taking my kids to a dentist has never been easier. They just loved the welcoming and warm atmosphere in there!
+              </p>
+              <p class="testimonial-info2">
                 <span class="testimonial-name">Daniela Robbery</span>
                 <i class="testimonial-date"> – May 10, 2016</i>
               </p>
@@ -228,7 +273,6 @@
         </div>
       </div>
     </section>
-
     <section class="home-help padding-80">
       <div class="container">
         <div class="row">
@@ -238,7 +282,7 @@
               We offer a wide range of procedures to help you get the perfect smile.
             </p>
           </div>
-          <div class="col-md-4 align-self-center text-right">
+          <div class="col-md-4 home-help-btn">
             <button class="btn btn-primary btn-dental-2" type="button" name="button">Book an Appointment</button>
           </div>
         </div>
@@ -306,5 +350,52 @@
       </div>
     </section>
     <?php include('footer.php'); ?>
+    <script>
+      jQuery(document).ready(function($) {
+        var owl = $('.owl-carousel');
+        owl.on('initialize.owl.carousel initialized.owl.carousel ' +
+          'initialize.owl.carousel initialize.owl.carousel ' +
+          'resize.owl.carousel resized.owl.carousel ' +
+          'refresh.owl.carousel refreshed.owl.carousel ' +
+          'update.owl.carousel updated.owl.carousel ' +
+          'drag.owl.carousel dragged.owl.carousel ' +
+          'translate.owl.carousel translated.owl.carousel ' +
+          'to.owl.carousel changed.owl.carousel',
+          function(e) {
+            $('.' + e.type)
+              .removeClass('secondary')
+              .addClass('success');
+            window.setTimeout(function() {
+              $('.' + e.type)
+                .removeClass('success')
+                .addClass('secondary');
+            }, 500);
+          });
+        owl.owlCarousel({
+          loop: true,
+          nav: true,
+          lazyLoad: true,
+          margin: 10,
+          video: true,
+          autoplay:true,
+          autoplayTimeout:3000,
+          autoplayHoverPause:true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 3
+            },
+            960: {
+              items: 3,
+            },
+            1200: {
+              items: 3
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>

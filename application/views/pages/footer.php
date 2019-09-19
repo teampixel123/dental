@@ -76,6 +76,13 @@
   </div>
 </footer>
 
+<a href="#" id="go-top" class="go-top" style="color: #f7c247;">
+  <i class="">
+    <svg style="width:25px; padding-bottom:20px;"  viewBox="0 0 320 512"><path fill="#fff" d="M168.5 164.2l148 146.8c4.7 4.7 4.7 12.3 0 17l-19.8 19.8c-4.7 4.7-12.3 4.7-17 0L160 229.3 40.3 347.8c-4.7 4.7-12.3 4.7-17 0L3.5 328c-4.7-4.7-4.7-12.3 0-17l148-146.8c4.7-4.7 12.3-4.7 17 0z" class=""></path></svg>
+  </i>
+</a>
+
 <script src="assets/js/jquery-3.4.1.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="assets/js/dental.js" type="text/javascript"></script>
+<script src="assets/js/owl.carousel.js"></script>

@@ -1,5 +1,6 @@
 $theme_color : #0095e5;
 $para_color : #616262;
+$bg_gray : #f7f7f7;
 $media_phone: "only screen and (max-width:480px)";
 
 @font-face {
@@ -23,6 +24,9 @@ a{
 }
 .padding-80{
   padding: 80px 0;
+  @media #{$media_phone}{
+    padding: 50px 0;
+  }
 }
 p{
   font-family: $roboto;
@@ -78,13 +82,23 @@ h1, h2, h3, h4, h5{
   color: $theme_color;
   font-family: $roboto;
 }
-
 .web-img{
   width:100%;
   display: inline-block;
   height: auto;
   vertical-align: middle;
 }
+@media #{$media_phone}{
+  .title{
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+}
+
+.nav-menu-mob{
+  display: none;
+}
+
 .nav-top{
   background: $theme_color;
   .nav-social{
@@ -136,7 +150,9 @@ h1, h2, h3, h4, h5{
 .nav-1{
   padding: 15px 0px;
   border-bottom: 1px solid #e3e4e4;
-  .nav-contact-icon{
+  .nav-contact-icon1, .nav-contact-icon2{
+    padding: 0;
+    align-self: center!important;
     div{
       border: 1px solid $theme_color;
       border-radius: 50%;
@@ -150,7 +166,7 @@ h1, h2, h3, h4, h5{
       }
     }
   }
-  .nav-contact-icon:hover div{
+  .nav-contact-icon1:hover div, .nav-contact-icon2:hover div{
     background: $theme_color;
     color: #fff;
   }
@@ -167,6 +183,7 @@ h1, h2, h3, h4, h5{
 .nav-menu{
   padding-left: 0;
   padding-right: 0;
+  box-shadow: 0 4px 6px -6px $para_color;
   .nav-link{
     font-size: 18px;
     padding: 10px;
@@ -215,6 +232,52 @@ h1, h2, h3, h4, h5{
     margin-left: 35px;
   }
 }
+
+// Nav Mobile...
+@media #{$media_phone}{
+  .nav-1{
+    padding-top:0;
+    .nav-icon{
+      display: none;
+    }
+    .nav-contact-icon1{
+      margin-top: 20px;
+    }
+    .nav-contact-icon2{
+      margin-top: 0px;
+    }
+    .nav-contact-icon1, .nav-contact-icon2{
+      div{
+        margin:auto;
+      }
+    }
+    .nav-contact-text{
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+
+  .nav-menu{
+    display: none;
+  }
+  .nav-menu-mob{
+    display: block;
+    box-shadow: 0 4px 6px -6px $para_color;
+    .dropdown-toggle::after{
+      display: none;
+    }
+    .navbar-toggler:focus{
+      border: none;
+      outline: none;
+    }
+    i{
+      color: $theme_color;
+      font-size: 24px;
+    }
+  }
+}
+
+
 // Slider
 .carousel-caption {
     position: absolute;
@@ -236,11 +299,21 @@ h1, h2, h3, h4, h5{
   .title{
     text-align: left;
     margin-bottom: 10px;
+
   }
   p{
     margin-bottom: 10px;
   }
 }
+@media #{$media_phone}{
+  .about-dental{
+    .title{
+      margin-top: 20px;
+    }
+  }
+}
+
+// Why Choos Us...
 .why-choose-us{
   background: $theme_color;
   .choose-icon{
@@ -260,7 +333,6 @@ h1, h2, h3, h4, h5{
   }
   .choose-icon:hover{
     background: #fff;
-
     i{
       color: $theme_color;
     }
@@ -276,10 +348,17 @@ h1, h2, h3, h4, h5{
     margin: 0;
   }
 }
+@media #{$media_phone}{
+  .why-choose-us{
+    .choose-box{
+      margin-top: 40px;
+    }
+  }
+}
 
 .our-services{
   .sub-title{
-    text-align: center;
+    text-align: left;
     font-size: 22px;
     margin-top: 30px;
     margin-bottom: 0;
@@ -288,6 +367,7 @@ h1, h2, h3, h4, h5{
     position: relative;
     display: inline-block;
     overflow: hidden;
+    width:100%;
   }
   .service-img:before {
     position: absolute;
@@ -309,6 +389,18 @@ h1, h2, h3, h4, h5{
     animation: shine 1s;
 }
 }
+
+@media #{$media_phone}{
+  .our-services{
+    .service-box{
+      margin-top: 40px;
+    }
+    .sub-title{
+      margin-top: 10px;
+    }
+  }
+}
+
 @-webkit-keyframes shine{
   100%{
     left:125%;
@@ -321,7 +413,7 @@ h1, h2, h3, h4, h5{
 }
 
 .home-testimonial{
-  background: #f7f7f7;
+  background: $bg_gray;
   .testimonial-img{
     width: 120px;
     height: 120px;
@@ -332,6 +424,12 @@ h1, h2, h3, h4, h5{
   }
   p{
     font-size: 18px;
+  }
+  .testimonial-info2{
+    margin-top: 15px;
+    @media #{$media_phone}{
+      text-align: center;
+    }
   }
   .testimonial-name{
     color: #000;
@@ -348,12 +446,49 @@ h1, h2, h3, h4, h5{
   p+p{
     margin-bottom: 0;
   }
+  .item{
+    padding: 0 20px;
+    @media #{$media_phone}{
+      margin-top: 30px;
+    }
+  }
+  //Testimonial Slider
+  .owl-prev, .owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.5rem!important;
+    color: $para_color !important;
+  }
+  .owl-prev{
+    left:-15px;
+  }
+  .owl-next{
+    right: -15px;
+  }
+  .owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: inherit;
+    text-decoration: none;
+  }
+  .owl-theme .owl-nav [class*=owl-]:focus {
+    outline: none;
+    border: none;
+  }
 }
 
 .home-help{
   background: $theme_color;
   .col-md-8{
     padding-left: 0;
+  }
+  .home-help-btn{
+    text-align: right;
+    align-self: center!important;
+    @media #{$media_phone}{
+      text-align: center;
+      margin-top: 30px;
+    }
   }
   .title{
     text-align: left;
@@ -366,6 +501,7 @@ h1, h2, h3, h4, h5{
     font-size:22px;
     font-style: italic;
   }
+
 }
 
 .home-blog{
@@ -400,25 +536,41 @@ h1, h2, h3, h4, h5{
         background: #e3e4e4;
       }
     }
+    @media #{$media_phone}{
+      margin-top: 30px;
+    }
   }
 }
 
 // footer
 .dental-footer{
+  @media #{$media_phone}{
+    padding-top: 20px;
+  }
   background: #2c2d2d;
   ul{
     list-style: none;
     padding: 0;
     margin: 0;
     color:#fff;
+    @media #{$media_phone}{
+      text-align: center;
+    }
     li{
       margin-bottom: 15px;
       font-size: 14px;
+      @media #{$media_phone}{
+        margin-bottom: 5px;
+      }
     }
   }
   h5{
     color: #fff;
     margin-bottom: 0px;
+    @media #{$media_phone}{
+      margin-top: 20px;
+      text-align: center;
+    }
   }
   a{
     color: #fff;
@@ -437,6 +589,7 @@ h1, h2, h3, h4, h5{
   .container{
     padding-top: 15px;
     padding-bottom: 15px;
+
   }
   ul{
     list-style: none;
@@ -462,11 +615,167 @@ h1, h2, h3, h4, h5{
   }
 }
 
+
+@media #{$media_phone}{
+  .dental-copy{
+    p, ul{
+      text-align: center;
+    }
+  }
+}
+
+// Footer blue underline...
 .tx-div{
   width: 45px;
-    display: block;
-    height: 3px;
-    opacity: .8;
-    margin: 10px 0 25px;
-    border-bottom: 2px solid $theme_color;
+  display: block;
+  height: 3px;
+  opacity: .8;
+  margin: 10px 0 25px;
+  border-bottom: 2px solid $theme_color;
+  @media #{$media_phone}{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+}
+
+/* Go Top */
+ .go-top {
+	position: fixed;
+	z-index: 900;
+	right: 10px;
+	bottom: 70px;
+	display: none;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+  border: 2px solid $theme_color;
+	background: $theme_color !important;
+	font-size: 40px;
+	text-align: center;
+	color: #fff !important;
+	transition: background 0.3s, color 0.3s;
+	-ms-transition: background 0.3s, color 0.3s;
+	-moz-transition: background 0.3s, color 0.3s;
+	-webkit-transition: background 0.3s, color 0.3s;
+  i{
+    line-height: 57px;
+    font-size: 44px;
+  }
+}
+.go-top:hover {
+	background: #3f3f3f;
+	color: #c1c0b4;
+}
+
+// About Us pages
+.about-dental{
+  .sub-title{
+      @media #{$media_phone}{
+      margin-top: 30px;
+    }
+  }
+
+}
+
+.about-team{
+  background: $bg_gray;
+  .team-possition{
+    color: #000;
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 800;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    li{
+      display: inline-block;
+    }
+    li+li{
+      margin-left: 20px;
+    }
+    i{
+      font-size: 20px;
+      color: $theme_color;
+      transition: 300ms;
+    }
+    i:hover{
+      color: $para_color;
+    }
+  }
+
+
+}
+
+// Contat pages
+.contact{
+  h4{
+    margin-bottom: 10px;
+
+  }
+  p{
+    margin-bottom: 20px;
+  }
+  .form-control{
+    background: $bg_gray;
+  }
+  .form-control:focus{
+    box-shadow: none;
+  }
+  .contact-lbl{
+    color: $para_color;
+    font-size: 18px;
+  }
+  @media #{$media_phone}{
+    .col-md-12{
+      margin-bottom: 30px;
+    }
+    h4{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+    .contact-form{
+      margin-top: 30px;
+    }
+  }
+}
+
+
+// Service Page...
+.service{
+  .sub-title{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .carousel{
+    margin-top: 50px;
+  }
+  @media #{$media_phone}{
+    .sub-title{
+      margin-top: 30px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    p{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
 }
