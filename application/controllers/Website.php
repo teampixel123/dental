@@ -18,5 +18,8 @@ class Website extends CI_Controller {
 	public function blog_list(){
 		$this->load->view('pages/blog_list');
 	}
+	public function blog_details(){
+		$this->load->view('pages/blog_details');
+	}
 }
 ?>

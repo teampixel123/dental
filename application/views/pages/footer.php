@@ -76,6 +76,31 @@
   </div>
 </footer>
 
+<div class="sideslider">
+  <div class="book-appointment"><a class="book-btn" href="#">Book an Appointment</a></div>
+  <div id="appointment-form">
+    <form>
+      <div class="form-group">
+        <input type="text" class="form-control form-control-sm" id="exampleInputEmail1" placeholder="Full Name">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <input type="number" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Mobile Number">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Date">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Time">
+      </div>
+      <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+      <button type="submit" class="btn btn-default btn-sm float-right appointment-close"><u>Close</u></button>
+    </form>
+  </div>
+</div>
+
 <a href="#" id="go-top" class="go-top" style="color: #f7c247;">
   <i class="">
     <svg style="width:25px; padding-bottom:20px;"  viewBox="0 0 320 512"><path fill="#fff" d="M168.5 164.2l148 146.8c4.7 4.7 4.7 12.3 0 17l-19.8 19.8c-4.7 4.7-12.3 4.7-17 0L160 229.3 40.3 347.8c-4.7 4.7-12.3 4.7-17 0L3.5 328c-4.7-4.7-4.7-12.3 0-17l148-146.8c4.7-4.7 12.3-4.7 17 0z" class=""></path></svg>

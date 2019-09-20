@@ -18,6 +18,23 @@ $(".dropdown-desk").hover(function(){
   }
 });
 
+$('.book-appointment').click(function(){
+  if ( $('.sideslider').css('marginRight') == '-45px' ){
+    $(".sideslider").animate({
+      'marginRight': '-=270px'
+    }, 1000);
+    } else {
+      $(".sideslider").animate({
+        'marginRight': '+=270px'
+      }, 1000);
+    }
+})
+$('.appointment-close').click(function(){
+  $(".sideslider").animate({
+    'marginRight': '-=270px'
+  }, 1000);
+})
+
 // Go to top..
 $('#go-top').on( "click", function() {
     $('html, body').animate({scrollTop: 0});

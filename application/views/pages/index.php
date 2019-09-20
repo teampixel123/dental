@@ -21,7 +21,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <img src="assets/images/slide2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>We’re always available for customers <br>with emergent dental problems.</h5>
@@ -30,7 +30,7 @@
                 <button class="btn btn-primary btn-dental" type="button" name="button">See all Services</button>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="carousel-item">
             <img src="assets/images/slide3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -140,7 +140,15 @@
           <div class="col-md-3">
             <div class="service-box">
               <div class="service-img">
-                <a class="" href="#"><img class="web-img" src="assets/images/home_page/services1.jpg" alt=""></a>
+               <div class="ih-item square effect13 top_to_bottom w-100">
+                 <a href="#">
+                   <div class="img"><img src="assets/images/home_page/services1.jpg" class="web-img" alt="img"></div>
+                   <div class="info">
+                     <h3>Heading here</h3>
+                     <p>Description goes here</p>
+                   </div>
+                 </a>
+               </div>
               </div>
               <a href="#"><h4 class="sub-title">General and preventive care</h4></a>
             </div>
@@ -148,7 +156,15 @@
           <div class="col-md-3">
             <div class="service-box">
               <div class="service-img">
-                <a href="#"><img class="web-img" src="assets/images/home_page/services2.jpg" alt=""></a>
+               <div class="ih-item square effect13 top_to_bottom w-100">
+                 <a href="#">
+                   <div class="img"><img src="assets/images/home_page/services2.jpg" class="web-img" alt="img"></div>
+                   <div class="info">
+                     <h3>Heading here</h3>
+                     <p>Description goes here</p>
+                   </div>
+                 </a>
+               </div>
               </div>
               <a href="#"><h4 class="sub-title">Cosmetic solutions</h4></a>
             </div>
@@ -156,7 +172,15 @@
           <div class="col-md-3">
             <div class="service-box">
               <div class="service-img">
-                <a href="#"><img class="web-img" src="assets/images/home_page/services3.jpg" alt=""></a>
+               <div class="ih-item square effect13 top_to_bottom w-100">
+                 <a href="#">
+                   <div class="img"><img src="assets/images/home_page/services3.jpg" class="web-img" alt="img"></div>
+                   <div class="info">
+                     <h3>Heading here</h3>
+                     <p>Description goes here</p>
+                   </div>
+                 </a>
+               </div>
               </div>
               <a href="#"><h4 class="sub-title">Restorative solutions</h4></a>
             </div>
@@ -164,7 +188,15 @@
           <div class="col-md-3">
             <div class="service-box">
               <div class="service-img">
-                <a href="#"><img class="web-img" src="assets/images/home_page/services4.jpg" alt=""></a>
+               <div class="ih-item square effect13 top_to_bottom w-100">
+                 <a href="#">
+                   <div class="img"><img src="assets/images/home_page/services4.jpg" class="web-img" alt="img"></div>
+                   <div class="info">
+                     <h3>Heading here</h3>
+                     <p>Description goes here</p>
+                   </div>
+                 </a>
+               </div>
               </div>
               <a href="#"><h4 class="sub-title">Additional treatments</h4></a>
             </div>
@@ -397,5 +429,70 @@
         });
       });
     </script>
+
+
+
+    <!-- <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.sideslider').sideSlider();
+    });
+
+    (function($) {
+          $.fn.sideSlider = function(options) {
+              var $this = $(this);
+              var settings = $.extend({
+                  speed        : 1,
+                  side         : 'right',
+                  complete : null
+              }, options);
+
+              var side = 'marginRight';
+              if(settings.side == 'left'){
+                  side = 'marginLeft';
+              }
+              var speed_multiplier = parseInt(settings.speed);
+              var finish = $this.css(side).replace('px','');
+              var distance = $('.sideslider-close').width();
+              var start =$('.sideslider').css(side).replace('px','');
+
+              $this.mouseenter(function(){
+                  if($this.css(side).replace('px','')==start)
+                  {
+                      if(side == 'marginRight'){
+                          $this.animate({marginRight:"+="+distance},speed_multiplier*1000,function(){finish=$this.css(side).replace('px','');});
+                      }
+                      else if(side == 'marginLeft')
+                      {
+                          $this.animate({marginLeft:"+="+distance},speed_multiplier*1000,function(){finish=$this.css(side).replace('px','');});
+                      }
+
+
+                  }
+              });
+             $('.book-appointment, #sideslider .sideslider-close').click(function()
+              {
+                  if($this.css(side).replace('px','')==finish)
+                  {
+                      if(side == 'marginRight'){
+                          $this.animate({marginRight:"-="+distance},speed_multiplier*1000,function(){start=$this.css(side).replace('px','');});
+                      }
+                      else if(side == 'marginLeft')
+                      {
+                          $this.animate({marginLeft:"-="+distance},speed_multiplier*1000,function(){start=$this.css(side).replace('px','');});
+                      }
+
+                  }
+              });
+
+              return $this.each( function() {
+
+                  if ( $.isFunction( settings.complete ) ) {
+                      settings.complete.call( this );
+                  }
+              });
+          }
+        }(jQuery));
+    </script> -->
   </body>
 </html>

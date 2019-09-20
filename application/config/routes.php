@@ -56,3 +56,5 @@ $route['translate_uri_dashes'] = FALSE;
 $route['About-Us'] = "Website/about_us";
 $route['Contact'] = "Website/contact";
 $route['Service'] = "Website/service";
+$route['Blogs'] = "Website/blog_list";
+$route['Blog-Details'] = "Website/blog_details";
