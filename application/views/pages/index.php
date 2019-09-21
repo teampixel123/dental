@@ -8,7 +8,7 @@
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleFade" data-slide-to="1"></li>
-          <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+          <!-- <li data-target="#carouselExampleFade" data-slide-to="2"></li> -->
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -17,7 +17,7 @@
               <h5>We’re always available for customers<br>with emergent dental problems.</h5>
               <p>We’re always available for customers with emergent dental problems.</p>
               <div class="text-left mt-3">
-                <button class="btn btn-primary btn-dental" type="button" name="button">See all Services</button>
+                <button class="btn btn-primary btn-dental" type="button" name="button">Book Appointment Now</button>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
               <h5>We’re always available for customers <br>with emergent dental problems.</h5>
               <p>We’re always available for customers with emergent dental problems.</p>
               <div class="text-left mt-3">
-                <button class="btn btn-primary btn-dental" type="button" name="button">See all Services</button>
+                <button class="btn btn-primary btn-dental" type="button" name="button">Book Appointment Now</button>
               </div>
             </div>
           </div>
@@ -56,33 +56,37 @@
     <section class="about-dental padding-80">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img class="web-img" src="assets/images/home_page/home1.jpg" alt="">
+          <div class="col-md-6 overflow-hidden">
+            <div class="" data-aos="fade-right">
+              <img class="web-img" src="assets/images/home_page/home1.jpg" alt="">
+            </div>
           </div>
-          <div class="col-md-6">
-            <h3 class="title">Welcome to BeDentist</h3>
-            <h4 class="sub-title">Dental clinic BeDentist welcomes you!</h4>
-            <div class="mt-4">
-              <p>
-                We’re glad you hand your dental health concerns to our skilled hands. We’ll make sure to deliver the best possible healthcare to all our
-                patients! Of course, we always complement our main services with a customer service oriented approach.
-              </p>
-              <p>
-                We sincerely believe that visiting a dentist shouldn’t be a frightening or stressful experience! We provide an equally comfortable
-                experience of relaxation for all our young and adult customers! Also we implement a lot of pain management and anesthesia options.
-                <i class="text-body">Everything we do is aimed at making you feel comfortable, while we take care of your oral healthcare!</i>
-              </p>
-              <p>
-                It includes both local anesthesia for mouth-numbing as well as a sedative anesthesia. Altogether, this helps relief any pain which might
-                occur in the process of treatment. All in all, we’ve got it all under control at our BeDentist dental health clinic.
-              </p>
-              <p>
-                We invite you to explore the information about our dental office on our website! Feel free to read our terms and conditions and all
-                the additional info we have posted here.
-              </p>
-              <p class="mb-0">
-                Once our customer, you will be leaving our dental clinic with a bright, wide smile!
-              </p>
+          <div class="col-md-6 overflow-hidden">
+            <div class="" data-aos="fade-left">
+              <h3 class="title">Welcome to BeDentist</h3>
+              <h4 class="sub-title">Dental clinic BeDentist welcomes you!</h4>
+              <div class="mt-4">
+                <p>
+                  We’re glad you hand your dental health concerns to our skilled hands. We’ll make sure to deliver the best possible healthcare to all our
+                  patients! Of course, we always complement our main services with a customer service oriented approach.
+                </p>
+                <p>
+                  We sincerely believe that visiting a dentist shouldn’t be a frightening or stressful experience! We provide an equally comfortable
+                  experience of relaxation for all our young and adult customers! Also we implement a lot of pain management and anesthesia options.
+                  <i class="text-body">Everything we do is aimed at making you feel comfortable, while we take care of your oral healthcare!</i>
+                </p>
+                <p>
+                  It includes both local anesthesia for mouth-numbing as well as a sedative anesthesia. Altogether, this helps relief any pain which might
+                  occur in the process of treatment. All in all, we’ve got it all under control at our BeDentist dental health clinic.
+                </p>
+                <p>
+                  We invite you to explore the information about our dental office on our website! Feel free to read our terms and conditions and all
+                  the additional info we have posted here.
+                </p>
+                <p class="mb-0">
+                  Once our customer, you will be leaving our dental clinic with a bright, wide smile!
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -91,10 +95,10 @@
 
     <section class="why-choose-us padding-80">
       <div class="container">
-        <h3 class="title text-white">Why choose the Dentist clinic?</h3>
+        <h3 class="title text-white" data-aos="zoom-in" >Why choose the Dentist clinic?</h3>
         <div class="row">
           <div class="col-md-3">
-            <div class="choose-box">
+            <div class="choose-box" data-aos="zoom-in-up">
               <div class="choose-icon">
                 <i class="fa fa-book"></i>
               </div>
@@ -103,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="choose-box">
+            <div class="choose-box" data-aos="zoom-in-up">
               <div class="choose-icon">
                 <i class="fa fa-book"></i>
               </div>
@@ -112,7 +116,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="choose-box">
+            <div class="choose-box" data-aos="zoom-in-up">
               <div class="choose-icon">
                 <i class="fa fa-book"></i>
               </div>
@@ -121,7 +125,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="choose-box">
+            <div class="choose-box" data-aos="zoom-in-up">
               <div class="choose-icon">
                 <i class="fa fa-book"></i>
               </div>
@@ -135,11 +139,11 @@
 
     <section class="our-services padding-80">
       <div class="container">
-        <h3 class="title">Our Services</h3>
+        <h3 class="title" data-aos="zoom-in">Our Services</h3>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 overflow-hidden">
             <div class="service-box">
-              <div class="service-img">
+              <div class="service-img" data-aos="fade-up-right">
                <div class="ih-item square effect13 top_to_bottom w-100">
                  <a href="#">
                    <div class="img"><img src="assets/images/home_page/services1.jpg" class="web-img" alt="img"></div>
@@ -150,12 +154,12 @@
                  </a>
                </div>
               </div>
-              <a href="#"><h4 class="sub-title">General and preventive care</h4></a>
+              <a href="#"><h4 class="sub-title" data-aos="flip-left">General and preventive care</h4></a>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 overflow-hidden">
             <div class="service-box">
-              <div class="service-img">
+              <div class="service-img" data-aos="fade-up-left">
                <div class="ih-item square effect13 top_to_bottom w-100">
                  <a href="#">
                    <div class="img"><img src="assets/images/home_page/services2.jpg" class="web-img" alt="img"></div>
@@ -166,12 +170,12 @@
                  </a>
                </div>
               </div>
-              <a href="#"><h4 class="sub-title">Cosmetic solutions</h4></a>
+              <a href="#"><h4 class="sub-title" data-aos="flip-left">Cosmetic solutions</h4></a>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 overflow-hidden">
             <div class="service-box">
-              <div class="service-img">
+              <div class="service-img" data-aos="fade-up-right">
                <div class="ih-item square effect13 top_to_bottom w-100">
                  <a href="#">
                    <div class="img"><img src="assets/images/home_page/services3.jpg" class="web-img" alt="img"></div>
@@ -182,12 +186,12 @@
                  </a>
                </div>
               </div>
-              <a href="#"><h4 class="sub-title">Restorative solutions</h4></a>
+              <a href="#"><h4 class="sub-title" data-aos="flip-left">Restorative solutions</h4></a>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 overflow-hidden">
             <div class="service-box">
-              <div class="service-img">
+              <div class="service-img" data-aos="fade-up-left">
                <div class="ih-item square effect13 top_to_bottom w-100">
                  <a href="#">
                    <div class="img"><img src="assets/images/home_page/services4.jpg" class="web-img" alt="img"></div>
@@ -198,19 +202,19 @@
                  </a>
                </div>
               </div>
-              <a href="#"><h4 class="sub-title">Additional treatments</h4></a>
+              <a href="#"><h4 class="sub-title" data-aos="flip-left">Additional treatments</h4></a>
             </div>
           </div>
         </div>
         <div class="text-center mt-5">
-          <button class="btn btn-primary btn-dental" type="button" name="button">See all Services</button>
+          <button class="btn btn-primary btn-dental" type="button" name="button" data-aos="flip-up">See all Services</button>
         </div>
       </div>
     </section>
 
     <section class="home-testimonial padding-80">
-      <div class="container">
-        <h3 class="title">What our patients say</h3>
+      <div class="container" data-aos="fade-up">
+        <h3 class="title" data-aos="zoom-in">What our patients say</h3>
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="testimonial-box text-center">
@@ -309,12 +313,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h3 class="title">How we can help...</h3>
-            <p>
+            <h3 class="title" data-aos="zoom-out">How we can help...</h3>
+            <p data-aos="zoom-out">
               We offer a wide range of procedures to help you get the perfect smile.
             </p>
           </div>
-          <div class="col-md-4 home-help-btn">
+          <div class="col-md-4 home-help-btn" data-aos="flip-up">
             <button class="btn btn-primary btn-dental-2" type="button" name="button">Book an Appointment</button>
           </div>
         </div>
@@ -323,53 +327,53 @@
 
     <section class="home-blog padding-80">
       <div class="container">
-        <h3 class="title">Recent news</h3>
+        <h3 class="title" data-aos="zoom-in">Recent news</h3>
         <div class="row">
           <div class="col-md-4">
             <div class="blog-box">
-              <div class="blog-img">
+              <div class="blog-img" data-aos="fade-up"  data-aos-duration="700">
                 <img class="web-img" src="assets/images/home_page/blog1.jpg" alt="">
               </div>
-              <h4 class="sub-title blog-title">Dental clinic BeDentist welcomes you!</h4>
-              <ul>
+              <h4 class="sub-title blog-title" data-aos="fade-up" data-aos-duration="900">Dental clinic BeDentist welcomes you!</h4>
+              <ul data-aos="fade-up"  data-aos-duration="1100">
                 <li>by John Doe</li>
                 <li>May 10, 2016</li>
                 <li>Dental</li>
               </ul>
-              <p>
+              <p data-aos="fade-up"  data-aos-duration="1300">
                 Gums disease is preceded by few very distinct symptoms. One of these is when you spit out blood after brushing your teeth...
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="blog-box">
-              <div class="blog-img">
+              <div class="blog-img" data-aos="fade-up" data-aos-duration="700">
                 <img class="web-img" src="assets/images/home_page/blog2.jpg" alt="">
               </div>
-              <h4 class="sub-title blog-title">Basic dental care 101</h4>
-              <ul>
+              <h4 class="sub-title blog-title" data-aos="fade-up" data-aos-duration="900">Basic dental care 101</h4>
+              <ul data-aos="fade-up" data-aos-duration="1100">
                 <li>by John Doe</li>
                 <li>May 10, 2016</li>
                 <li>Dental</li>
               </ul>
-              <p>
+              <p data-aos="fade-up" data-aos-duration="1300">
                 Americans oftentimes ignore some basic, daily routines of oral hygiene, that need to be upheld. Practicing healthy habits
                 like these ones will...
               </p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="blog-box">
-              <div class="blog-img">
+            <div class="blog-box" >
+              <div class="blog-img" data-aos="fade-up" data-aos-duration="700">
                 <img class="web-img" src="assets/images/home_page/blog3.jpg" alt="">
               </div>
-              <h4 class="sub-title blog-title">Avoiding bad breath</h4>
-              <ul>
+              <h4 class="sub-title blog-title" data-aos="fade-up"  data-aos-duration="900">Avoiding bad breath</h4>
+              <ul data-aos="fade-up"  data-aos-duration="1100">
                 <li>by John Doe</li>
                 <li>May 10, 2016</li>
                 <li>Dental</li>
               </ul>
-              <p>
+              <p data-aos="fade-up"  data-aos-duration="1300">
                 Bad breath is a deal breaker both in business and in personal life of ours. And while breath fresheners or candies hide it,
                 they do not cure the very problem at hand… So, most importantly, the bad breath is caused by a lack of oral…
               </p>
@@ -377,11 +381,49 @@
           </div>
         </div>
         <div class="text-center mt-5">
-          <button class="btn btn-primary btn-dental" type="button" name="button">See all News</button>
+          <button class="btn btn-primary btn-dental" type="button" name="button" data-aos="flip-up">See all News</button>
         </div>
       </div>
     </section>
+
+
+    <div class="row alert-div w-100" id="alert_success">
+    <div class="col-md-12">
+      <div class="alert alert-success " role="alert">
+        Appointment Send Successfully.
+      </div>
+    </div>
+  </div>
+
+  <div class="row alert-div w-100" id="alert_delete">
+  <div class="col-md-12">
+    <div class="alert alert-success " role="alert">
+      Appointment Send Error.
+    </div>
+  </div>
+</div>
+
+
     <?php include('footer.php'); ?>
+
+    <?php $is_success = $this->session->flashdata('send_ap_email');
+    if($is_success){ ?>
+      <input type="hidden" id="is_success" value="<?php echo $is_success; ?>">
+      <script type="text/javascript">
+        $(document).ready(function(){
+          var is_success = $('#is_success').val();
+          if(is_success == 'success'){
+            $('#alert_success').fadeIn(1000);
+            $('#alert_success').delay(3000).fadeOut(1000);
+          }
+          else if(is_success == 'error'){
+            $('#alert_delete').fadeIn(1000);
+            $('#alert_delete').delay(3000).fadeOut(1000);
+          }
+        });
+      </script>
+  <?php }  ?>
+
     <script>
       jQuery(document).ready(function($) {
         var owl = $('.owl-carousel');
@@ -429,70 +471,5 @@
         });
       });
     </script>
-
-
-
-    <!-- <script type="text/javascript">
-
-    $(document).ready(function(){
-        $('.sideslider').sideSlider();
-    });
-
-    (function($) {
-          $.fn.sideSlider = function(options) {
-              var $this = $(this);
-              var settings = $.extend({
-                  speed        : 1,
-                  side         : 'right',
-                  complete : null
-              }, options);
-
-              var side = 'marginRight';
-              if(settings.side == 'left'){
-                  side = 'marginLeft';
-              }
-              var speed_multiplier = parseInt(settings.speed);
-              var finish = $this.css(side).replace('px','');
-              var distance = $('.sideslider-close').width();
-              var start =$('.sideslider').css(side).replace('px','');
-
-              $this.mouseenter(function(){
-                  if($this.css(side).replace('px','')==start)
-                  {
-                      if(side == 'marginRight'){
-                          $this.animate({marginRight:"+="+distance},speed_multiplier*1000,function(){finish=$this.css(side).replace('px','');});
-                      }
-                      else if(side == 'marginLeft')
-                      {
-                          $this.animate({marginLeft:"+="+distance},speed_multiplier*1000,function(){finish=$this.css(side).replace('px','');});
-                      }
-
-
-                  }
-              });
-             $('.book-appointment, #sideslider .sideslider-close').click(function()
-              {
-                  if($this.css(side).replace('px','')==finish)
-                  {
-                      if(side == 'marginRight'){
-                          $this.animate({marginRight:"-="+distance},speed_multiplier*1000,function(){start=$this.css(side).replace('px','');});
-                      }
-                      else if(side == 'marginLeft')
-                      {
-                          $this.animate({marginLeft:"-="+distance},speed_multiplier*1000,function(){start=$this.css(side).replace('px','');});
-                      }
-
-                  }
-              });
-
-              return $this.each( function() {
-
-                  if ( $.isFunction( settings.complete ) ) {
-                      settings.complete.call( this );
-                  }
-              });
-          }
-        }(jQuery));
-    </script> -->
   </body>
 </html>

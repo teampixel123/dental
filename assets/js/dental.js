@@ -1,3 +1,18 @@
+// Active Menu...
+  $(document).ready(function() {
+      var url = window.location.href;
+      var activePage = url;
+      $('.nav-item').removeClass('active');
+      // alert(activePage);
+      $('.nav-item a').each(function () {
+          var linkPage = this.href;
+          if (activePage == linkPage) {
+              $(this).closest(".nav-item").addClass("active");
+          }
+      });
+  });
+
+
 $(".dropdown-desk").hover(function(){
   // alert();
   $(this).addClass('show');
@@ -13,8 +28,10 @@ $(".dropdown-desk").hover(function(){
   $(document).scroll(function() {
   if( $(this).scrollTop() > 200 ) {
     $('#go-top').fadeIn();
+    $('#wa-sticky').fadeIn();
   } else {
     $('#go-top').fadeOut();
+    $('#wa-sticky').fadeOut();
   }
 });
 
@@ -40,3 +57,10 @@ $('#go-top').on( "click", function() {
     $('html, body').animate({scrollTop: 0});
     return false;
 });
+
+
+// whatsapp change link if mobile...
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("wa-sticky").href = "https://api.whatsapp.com/send?phone=+919158995505";   //change url
+    document.getElementById("wa-sticky").target = "_blank";     //change target
+}

@@ -83,6 +83,28 @@ h1, h2, h3, h4, h5 {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
+.alert-div {
+  position: fixed;
+  top: 100px;
+  display: none; }
+
+.alert-div .alert {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  text-align: center;
+  color: #fff; }
+
+#alert_success .alert {
+  background: #28a745; }
+
+#alert_update .alert {
+  background: #007bff; }
+
+#alert_delete .alert {
+  background: #FF0000; }
+
 .title {
   line-height: 1.15;
   font-size: 50px;
@@ -245,6 +267,21 @@ h1, h2, h3, h4, h5 {
     display: block;
     -webkit-box-shadow: 0 4px 6px -6px #616262;
     box-shadow: 0 4px 6px -6px #616262; }
+    .nav-menu-mob .dropdown-menu {
+      border: none;
+      padding-top: 0; }
+    .nav-menu-mob .dropdown-item {
+      border-bottom: 1px solid #00B3B5;
+      padding-left: 5px;
+      color: #00B3B5; }
+    .nav-menu-mob .dropdown-item:active, .nav-menu-mob .dropdown-item:focus {
+      background: none;
+      outline: none; }
+    .nav-menu-mob .nav-link {
+      font-size: 18px;
+      font-weight: 400; }
+    .nav-menu-mob .nav-link:hover {
+      color: #00B3B5; }
     .nav-menu-mob .dropdown-toggle::after {
       display: none; }
     .nav-menu-mob .navbar-toggler:focus {
@@ -252,7 +289,9 @@ h1, h2, h3, h4, h5 {
       outline: none; }
     .nav-menu-mob i {
       color: #00B3B5;
-      font-size: 24px; } }
+      font-size: 24px; }
+    .nav-menu-mob img {
+      width: 170px; } }
 
 .carousel-caption {
   position: absolute;
@@ -456,6 +495,8 @@ h1, h2, h3, h4, h5 {
     color: #00B3B5; }
   .dental-footer i {
     color: #00B3B5; }
+  .dental-footer li:last-child {
+    margin-bottom: 0px; }
 
 .dental-copy {
   background: #222; }
@@ -481,6 +522,8 @@ h1, h2, h3, h4, h5 {
         color: #fff; }
     .dental-copy ul li + li {
       margin-left: 30px; }
+  .dental-copy p span {
+    color: #00B3B5; }
 
 @media only screen and (max-width: 480px) {
   .dental-copy p, .dental-copy ul {
@@ -530,6 +573,17 @@ h1, h2, h3, h4, h5 {
 .go-top:hover {
   background: #3f3f3f;
   color: #c1c0b4; }
+
+.wa-sticky {
+  left: 10px;
+  background: transparent !important;
+  border: 2px solid transparent;
+  cursor: pointer; }
+  .wa-sticky .fa {
+    font-size: 28px;
+    height: 28px; }
+  .wa-sticky .fa::before {
+    margin-bottom: 10px; }
 
 @media only screen and (max-width: 480px) {
   .about-dental .sub-title {
@@ -708,3 +762,7 @@ h1, h2, h3, h4, h5 {
     padding: 25px;
     position: relative;
     width: 265px; }
+
+/*****************************************************************************************/
+/************************************** Admin ********************************************/
+/*****************************************************************************************/

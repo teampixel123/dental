@@ -28,26 +28,37 @@
           </div>
 
           <div class="col-md-8 contact-form">
+            <?php
+              $send_email = $this->session->flashdata('send_email');
+              if($send_email == 'error'){ ?>
+                <div class="alert alert-danger" role="alert">
+                Email Not send.
+                </div>
+            <?php } else if($send_email == 'success'){ ?>
+                <div class="alert alert-success" role="alert">
+                Email send seccessfully.
+                </div>
+            <?php } ?>
             <h4 class="sub-title">Contact Form</h4>
-            <form class="mt-4">
+            <form class="mt-4" action="<?php echo base_url(); ?>Website/send_contact_mail" method="post">
               <div class="form-group">
                 <label class="contact-lbl">Your Name*</label>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
               </div>
               <div class="form-group">
                 <label class="contact-lbl">Email Address*</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
               </div>
               <div class="form-group">
                 <label class="contact-lbl">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Email Address">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group">
                 <label class="contact-lbl">You message*</label>
-                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Type Your Message"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Type Your Message" required></textarea>
               </div>
-              <button class="btn btn-primary btn-dental mt-3" type="button" name="button"> Send </button>
+              <button class="btn btn-primary btn-dental mt-3" type="submit" name="button"> Send </button>
             </form>
           </div>
         </div>
@@ -55,9 +66,13 @@
     </section>
 
     <section class="contact-map" style="margin-bottom:-7px;">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122291.28963608075!2d74.1737755064194!3d16.696748218966967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc1003e50f49e35%3A0xe0887b8c17821958!2spixelbazar!3m2!1d16.696759999999998!2d74.243816!5e0!3m2!1sen!2sin!4v1485068681227" width="100%" height="450" frameborder="0" class="border-0" allowfullscreen=""></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15286.13125982554!2d74.234261!3d16.700246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf7e569059ff60584!2sMakandar%20dental%20and%20implant%20clinic!5e0!3m2!1sen!2sin!4v1569060312033!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </section>
     <?php include('footer.php'); ?>
-
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.alert').show().delay(5000).fadeOut();
+      });
+    </script>
   </body>
 </html>

@@ -17,6 +17,13 @@ body{
   font-family: $roboto;
   // margin: 0px !important;
 }
+// div, p, ul, h1, h2, h3, h4, h5{
+//   overflow: hidden ;
+// }
+
+// .navbar-collapse, .nav-menu, .navbar-nav{
+//   overflow: visible !important;
+// }
 .row{
   padding: 0px !important;
   margin: 0px !important;
@@ -86,6 +93,32 @@ h1, h2, h3, h4, h5{
     outline: 0;
     box-shadow: none;
 }
+
+// alert
+.alert-div{
+  position: fixed;
+  top:100px;
+  display:none;
+}
+.alert-div .alert{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+#alert_success .alert{
+  background: #28a745;
+}
+#alert_update .alert{
+  background: #007bff;
+}
+#alert_delete .alert{
+  background: #FF0000;
+}
+
+
 .title{
   line-height: 1.15;
   font-size: 50px;
@@ -288,6 +321,26 @@ h1, h2, h3, h4, h5{
   .nav-menu-mob{
     display: block;
     box-shadow: 0 4px 6px -6px $para_color;
+    .dropdown-menu{
+      border: none;
+      padding-top: 0;
+    }
+    .dropdown-item{
+      border-bottom: 1px solid $theme_color;
+      padding-left: 5px;
+      color: $theme_color;
+    }
+    .dropdown-item:active, .dropdown-item:focus{
+      background: none;
+      outline: none;
+    }
+    .nav-link{
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .nav-link:hover{
+      color: $theme_color;
+    }
     .dropdown-toggle::after{
       display: none;
     }
@@ -298,6 +351,9 @@ h1, h2, h3, h4, h5{
     i{
       color: $theme_color;
       font-size: 24px;
+    }
+    img{
+      width:170px;
     }
   }
 }
@@ -609,6 +665,9 @@ h1, h2, h3, h4, h5{
   i{
     color: $theme_color;
   }
+  li:last-child{
+    margin-bottom: 0px;
+  }
 }
 
 .dental-copy{
@@ -616,7 +675,6 @@ h1, h2, h3, h4, h5{
   .container{
     padding-top: 15px;
     padding-bottom: 15px;
-
   }
   ul{
     list-style: none;
@@ -639,6 +697,9 @@ h1, h2, h3, h4, h5{
     li+li{
       margin-left: 30px;
     }
+  }
+  p span{
+    color: $theme_color;
   }
 }
 
@@ -698,7 +759,20 @@ h1, h2, h3, h4, h5{
 	background: #3f3f3f;
 	color: #c1c0b4;
 }
+.wa-sticky{
+  left: 10px;
+  background: transparent !important;
+  border: 2px solid transparent;
+  cursor: pointer;
+  .fa{
+    font-size: 28px;
+    height: 28px;
 
+  }
+  .fa::before{
+    margin-bottom: 10px;
+  }
+}
 // About Us pages
 .about-dental{
   .sub-title{
@@ -930,3 +1004,11 @@ h1, h2, h3, h4, h5{
     width: 265px;
 }
 }
+
+
+
+
+
+/*****************************************************************************************/
+/************************************** Admin ********************************************/
+/*****************************************************************************************/
