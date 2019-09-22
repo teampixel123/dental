@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5{
 .btn-dental{
   color: #fff;
   background-color: $theme_color;
-  border-color: $theme_color;
+  border: 2px solid $theme_color;
   transition: .2s ease-in;
   padding: 12px 28px;
   font-weight: 800;
@@ -1012,3 +1012,25 @@ h1, h2, h3, h4, h5{
 /*****************************************************************************************/
 /************************************** Admin ********************************************/
 /*****************************************************************************************/
+
+.dashboard{
+  .form-group{
+    margin-bottom: 15px !important;
+  }
+  .btn-dental{
+    padding: 8px 20px;
+  }
+  .title{
+    margin-bottom: 5px;
+    font-size: 36px;
+  }
+  .fa-eye{
+    color: green;
+  }
+  .fa-edit{
+    color: blue;
+  }
+  .fa-trash{
+    color: red;
+  }
+}

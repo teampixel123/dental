@@ -10,38 +10,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <form class="form-signin">
+    <form class="form-signin" action="<?php echo base_url(); ?>Admin/check_login" method="post">
       <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+      <?php if($this->session->flashdata('login')){ ?>
+        <div class="alert alert-danger text-center" role="alert">
+          Invalide Username or Password.
+        </div>
+      <?php } ?>
       <h1 class="h3 mb-3 font-weight-normal text-center">Login</h1>
-
       <div class="form-group">
-        <input type="text" class="form-control form-control-sm" name="full_name" id="exampleInputEmail1" placeholder="Username">
+        <input type="text" class="form-control form-control-sm" name="admin_username" id="admin_username" placeholder="Username" required>
       </div>
-
       <div class="form-group">
-        <input type="text" class="form-control form-control-sm" name="full_name" id="exampleInputEmail1" placeholder="Password">
+        <input type="password" class="form-control form-control-sm" name="admin_password" id="admin_password" placeholder="Password" required>
       </div>
-
-
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted text-center">&copy; 2019-2020</p>
+      <p class="mt-5 mb-3 text-muted text-center"><a href="#">Forgot Password.</a></p>
     </form>
-    <!-- <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
-      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-      <ul class="navbar-nav px-3">
-        <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#">Sign out</a>
-        </li>
-      </ul>
-    </nav>     -->
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/js/dental.js" type="text/javascript"></script>
-
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.alert').delay(5000).fadeOut();
+      });
+    </script>
   </body>
 </html>

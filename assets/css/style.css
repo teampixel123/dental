@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
 .btn-dental {
   color: #fff;
   background-color: #00B3B5;
-  border-color: #00B3B5;
+  border: 2px solid #00B3B5;
   -webkit-transition: .2s ease-in;
   -o-transition: .2s ease-in;
   transition: .2s ease-in;
@@ -766,3 +766,21 @@ h1, h2, h3, h4, h5 {
 /*****************************************************************************************/
 /************************************** Admin ********************************************/
 /*****************************************************************************************/
+.dashboard .form-group {
+  margin-bottom: 15px !important; }
+
+.dashboard .btn-dental {
+  padding: 8px 20px; }
+
+.dashboard .title {
+  margin-bottom: 5px;
+  font-size: 36px; }
+
+.dashboard .fa-eye {
+  color: green; }
+
+.dashboard .fa-edit {
+  color: blue; }
+
+.dashboard .fa-trash {
+  color: red; }
