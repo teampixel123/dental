@@ -42,12 +42,12 @@
             <h5>Working Hours</h5>
             <div class="tx-div"></div>
             <ul>
-              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
-              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
-              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Wednesday: &nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
-              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
-              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Friday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
-              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Saturday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
+              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Monday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
+              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Tuesday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
+              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Wednesday : &nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
+              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Thursday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
+              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Friday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
+              <li><i class="fa fa-angle-double-right"></i> &nbsp;&nbsp;Saturday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.30AM - 9PM</li>
             </ul>
           </div>
         </div>
@@ -66,16 +66,16 @@
         <div class="col-md-6 social-footer">
           <ul class="">
             <li class="li-fb">
-              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://www.facebook.com/makandarimplantclinic/"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa fa-youtube"></i></a>
+              <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
             </li>
           </ul>
         </div>
@@ -85,7 +85,7 @@
 </footer>
 
 <div class="sideslider">
-  <div class="book-appointment"><a class="book-btn" href="#">Book an Appointment</a></div>
+  <div class="book-appointment"><a class="book-btn">Book an Appointment</a></div>
   <div id="appointment-form">
     <form action="<?php echo base_url(); ?>Website/send_apointment_mail" method="post">
       <div class="form-group">
@@ -142,8 +142,15 @@
 <script src="assets/js/owl.carousel.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="assets/js/dataTables.bootstrap4.min.js"></script>
 
 <script src="assets/js/dental.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#blog_list2').DataTable();
+  } );
+</script>
 <script>
   AOS.init({
     duration: 1000,

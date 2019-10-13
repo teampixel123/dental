@@ -1,6 +1,6 @@
 <div class="container-fluid bg-white sticky-top nav-menu-mob">
   <nav class="container navbar navbar-expand-lg ">
-    <a class="navbar-brand dental-logo" href="<?php echo base_url(); ?>"> <img src="assets/images/logo.png" alt=""> </a>
+    <a class="navbar-brand dental-logo" href="<?php echo base_url(); ?>"> <img src="assets/images/Makandar-Dental.png" alt=""> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <!-- <span class="navbar-toggler-icon"></span> -->
       <i class="fa fa-bars"></i>
@@ -35,34 +35,34 @@
 </div>
 
 
-<nav class="navbar navbar-expand-md nav-top">
+<nav class="navbar navbar-expand-md nav-top d-none d-md-block">
   <div class="container">
     <div class="row w-100">
       <div class="col-md-6 nav-social">
         <ul class="">
           <li class="li-fb">
-            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.facebook.com/makandarimplantclinic/"><i class="fa fa-facebook"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
           </li>
         </ul>
       </div>
       <div class="col-md-6 nav-apoint">
         <span><i>Make an Appointment Now!</i></span>
-        <a href="#">Book an Appointment</a>
+        <a href="Contact">Book an Appointment</a>
       </div>
     </div>
   </div>
 </nav>
 
-<nav class="navbar navbar-expand-lg nav-1">
+<nav class="navbar navbar-expand-lg nav-1 d-none d-md-block">
   <div class="container">
     <div class="row w-100">
       <div class="col-md-6 nav-icon pl-0">

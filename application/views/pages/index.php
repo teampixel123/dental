@@ -4,10 +4,10 @@
   <body>
     <?php include('navbar.php'); ?>
     <section>
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="carouselBanner" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+          <li data-target="#carouselBanner" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselBanner" data-slide-to="1"></li>
           <!-- <li data-target="#carouselExampleFade" data-slide-to="2"></li> -->
         </ol>
         <div class="carousel-inner">
@@ -17,7 +17,7 @@
               <h5>We’re always available for customers<br>with emergent dental problems.</h5>
               <p>We’re always available for customers with emergent dental problems.</p>
               <div class="text-left mt-3">
-                <button class="btn btn-primary btn-dental" type="button" name="button">Book Appointment Now</button>
+                <a href="Contact" class="btn btn-primary btn-dental" name="button">Book Appointment Now</a>
               </div>
             </div>
           </div>
@@ -37,16 +37,16 @@
               <h5>We’re always available for customers <br>with emergent dental problems.</h5>
               <p>We’re always available for customers with emergent dental problems.</p>
               <div class="text-left mt-3">
-                <button class="btn btn-primary btn-dental" type="button" name="button">Book Appointment Now</button>
+                <a href="Contact" class="btn btn-primary btn-dental" name="button">Book Appointment Now</a>
               </div>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselBanner" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselBanner" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -63,28 +63,28 @@
           </div>
           <div class="col-md-6 overflow-hidden">
             <div class="" data-aos="fade-left">
-              <h3 class="title">Welcome to BeDentist</h3>
-              <h4 class="sub-title">Dental clinic BeDentist welcomes you!</h4>
+              <h3 class="title">Welcome to Makandar</h3>
+              <h4 class="sub-title">Dental & Implant Clinic</h4>
               <div class="mt-4">
                 <p>
-                  We’re glad you hand your dental health concerns to our skilled hands. We’ll make sure to deliver the best possible healthcare to all our
-                  patients! Of course, we always complement our main services with a customer service oriented approach.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
                 <p>
-                  We sincerely believe that visiting a dentist shouldn’t be a frightening or stressful experience! We provide an equally comfortable
-                  experience of relaxation for all our young and adult customers! Also we implement a lot of pain management and anesthesia options.
-                  <i class="text-body">Everything we do is aimed at making you feel comfortable, while we take care of your oral healthcare!</i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                  <i class="text-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</i>
                 </p>
                 <p>
-                  It includes both local anesthesia for mouth-numbing as well as a sedative anesthesia. Altogether, this helps relief any pain which might
-                  occur in the process of treatment. All in all, we’ve got it all under control at our BeDentist dental health clinic.
-                </p>
-                <p>
-                  We invite you to explore the information about our dental office on our website! Feel free to read our terms and conditions and all
-                  the additional info we have posted here.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
                 <p class="mb-0">
-                  Once our customer, you will be leaving our dental clinic with a bright, wide smile!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
                 </p>
               </div>
             </div>
@@ -103,7 +103,7 @@
                 <i class="fa fa-book"></i>
               </div>
               <h4>Easy booking</h4>
-              <p>Booking an appointment at our dental clinic is as easy as doing 2 clicks!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
           <div class="col-md-3">
@@ -111,8 +111,8 @@
               <div class="choose-icon">
                 <i class="fa fa-book"></i>
               </div>
-              <h4>Easy booking</h4>
-              <p>Booking an appointment at our dental clinic is as easy as doing 2 clicks!</p>
+              <h4>Experience</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
           <div class="col-md-3">
@@ -120,8 +120,8 @@
               <div class="choose-icon">
                 <i class="fa fa-book"></i>
               </div>
-              <h4>Easy booking</h4>
-              <p>Booking an appointment at our dental clinic is as easy as doing 2 clicks!</p>
+              <h4>Flexible schedule</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
           <div class="col-md-3">
@@ -129,8 +129,8 @@
               <div class="choose-icon">
                 <i class="fa fa-book"></i>
               </div>
-              <h4>Easy booking</h4>
-              <p>Booking an appointment at our dental clinic is as easy as doing 2 clicks!</p>
+              <h4>Best price guarantee</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
         </div>
@@ -319,7 +319,7 @@
             </p>
           </div>
           <div class="col-md-4 home-help-btn" data-aos="flip-up">
-            <button class="btn btn-primary btn-dental-2" type="button" name="button">Book an Appointment</button>
+            <a class="btn btn-primary btn-dental-2" href="Contact" name="button">Book an Appointment</a>
           </div>
         </div>
       </div>
@@ -338,7 +338,7 @@
               <ul data-aos="fade-up"  data-aos-duration="1100">
                 <li>by John Doe</li>
                 <li>May 10, 2016</li>
-                <li>Dental</li>
+                <!-- <li>Dental</li> -->
               </ul>
               <p data-aos="fade-up"  data-aos-duration="1300">
                 Gums disease is preceded by few very distinct symptoms. One of these is when you spit out blood after brushing your teeth...
@@ -354,7 +354,7 @@
               <ul data-aos="fade-up" data-aos-duration="1100">
                 <li>by John Doe</li>
                 <li>May 10, 2016</li>
-                <li>Dental</li>
+                <!-- <li>Dental</li> -->
               </ul>
               <p data-aos="fade-up" data-aos-duration="1300">
                 Americans oftentimes ignore some basic, daily routines of oral hygiene, that need to be upheld. Practicing healthy habits
@@ -371,7 +371,7 @@
               <ul data-aos="fade-up"  data-aos-duration="1100">
                 <li>by John Doe</li>
                 <li>May 10, 2016</li>
-                <li>Dental</li>
+                <!-- <li>Dental</li> -->
               </ul>
               <p data-aos="fade-up"  data-aos-duration="1300">
                 Bad breath is a deal breaker both in business and in personal life of ours. And while breath fresheners or candies hide it,
@@ -381,7 +381,7 @@
           </div>
         </div>
         <div class="text-center mt-5">
-          <button class="btn btn-primary btn-dental" type="button" name="button" data-aos="flip-up">See all News</button>
+          <a class="btn btn-primary btn-dental" href="Blogs" name="button" data-aos="flip-up">See all News</a>
         </div>
       </div>
     </section>

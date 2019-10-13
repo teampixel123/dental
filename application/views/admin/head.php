@@ -1,5 +1,6 @@
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Admin</title>
   <link rel="icon" href="../assets/images/fevicon.png" type="image/x-icon">
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -11,4 +12,5 @@
   <link rel="stylesheet" href="../assets/css/ihover.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.min.css">
+  <link href="../assets/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 </head>

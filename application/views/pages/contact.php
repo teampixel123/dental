@@ -18,13 +18,13 @@
             <h4 class="sub-title"><i class="fa fa-envelope"></i> E-Mail</h4>
             <p>bedentist@demolink.org</p>
             <h4 class="sub-title"><i class="fa fa-clock-o"></i> Opening hours</h4>
-            <p class="mb-1">Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
-            <p class="mb-1">Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
-            <p class="mb-1">Wednesday: &nbsp;&nbsp;&nbsp;10AM - 9PM</p>
-            <p class="mb-1">Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
-            <p class="mb-1">Friday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
-            <p class="mb-1">Saturday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
-            <p class="mb-1">Sunday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closed</p>
+            <p class="mb-1">Monday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
+            <p class="mb-1">Tuesday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
+            <p class="mb-1">Wednesday : &nbsp;&nbsp;&nbsp;10AM - 9PM</p>
+            <p class="mb-1">Thursday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
+            <p class="mb-1">Friday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
+            <p class="mb-1">Saturday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10AM - 9PM</p>
+            <p class="mb-1">Sunday : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closed</p>
           </div>
 
           <div class="col-md-8 contact-form">
@@ -39,8 +39,8 @@
                 Email send seccessfully.
                 </div>
             <?php } ?>
-            <h4 class="sub-title">Contact Form</h4>
-            <form class="mt-4" action="<?php echo base_url(); ?>Website/send_contact_mail" method="post">
+            <!-- <h4 class="sub-title">Contact Form</h4> -->
+            <form class="mt-0" action="<?php echo base_url(); ?>Website/send_contact_mail" method="post">
               <div class="form-group">
                 <label class="contact-lbl">Your Name*</label>
                 <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>

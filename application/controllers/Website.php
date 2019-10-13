@@ -2,6 +2,10 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Website extends CI_Controller {
+	public function __construct(){
+    parent:: __construct();
+
+  }
 	public function index()
 	{
 		$this->load->view('pages/index');
@@ -16,10 +20,20 @@ class Website extends CI_Controller {
 		$this->load->view('pages/service');
 	}
 	public function blog_list(){
-		$this->load->view('pages/blog_list');
+		$this->load->model('Admin_Model');
+		$data['blog_list'] = $this->Admin_Model->get_blog_list();
+		$this->load->view('pages/blog_list',$data);
 	}
 	public function blog_details(){
-		$this->load->view('pages/blog_details');
+		$this->load->model('Admin_Model');
+		$blog_id = $this->input->post('blog_id');
+		if($blog_id){
+			$data['blog_details'] = $this->Admin_Model->blog_details($blog_id);
+			$this->load->view('pages/blog_details',$data);
+		}
+		else{
+			header('location:Blogs');
+		}
 	}
 
 	public function send_contact_mail(){

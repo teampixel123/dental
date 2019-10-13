@@ -58,9 +58,23 @@ $('#go-top').on( "click", function() {
     return false;
 });
 
-
 // whatsapp change link if mobile...
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementById("wa-sticky").href = "https://api.whatsapp.com/send?phone=+919158995505";   //change url
     document.getElementById("wa-sticky").target = "_blank";     //change target
 }
+
+
+
+// Admin......
+$('.view-blog').click(function(){
+  event.stopPropagation();
+  event.stopImmediatePropagation();
+  $('.form-view-blog').submit();
+});
+
+$('.edit-blog').click(function(){
+  event.stopPropagation();
+  event.stopImmediatePropagation();
+  $('.form-edit-blog').submit();
+});

@@ -32,6 +32,10 @@ a{
   text-decoration: none !important;
   color: $theme_color;
 }
+a:focus{
+  box-shadow: none !important;
+  outline: none;
+}
 .padding-80{
   padding: 80px 0;
   @media #{$media_phone}{
@@ -57,7 +61,7 @@ h1, h2, h3, h4, h5{
   background-color: $theme_color;
   border: 2px solid $theme_color;
   transition: .2s ease-in;
-  padding: 12px 28px;
+  padding: 11px 27px;
   font-weight: 800;
   border-radius: 3px;
   box-shadow: 10px 10px 10px -3px rgba(0,0,0,.08);
@@ -89,11 +93,15 @@ h1, h2, h3, h4, h5{
   color: #fff;
   background: $theme_color;
 }
-.btn.focus, .btn:focus {
+.btn.focus, .btn:focus, .btn:active {
     outline: 0;
     box-shadow: none;
 }
-
+.btn:active {
+    background: #fff !important;
+    border-color: $theme_color !important;
+    color: $theme_color !important;
+}
 // alert
 .alert-div{
   position: fixed;
@@ -231,7 +239,7 @@ h1, h2, h3, h4, h5{
     }
   }
   .dental-logo img{
-    width:200px !important;
+    width:80px !important;
   }
 }
 
@@ -266,6 +274,7 @@ h1, h2, h3, h4, h5{
     .dropdown-item{
       color: $theme_color;
       border-bottom: 1px solid $theme_color;
+      padding: 0.60rem 1.5rem;
     }
     .dropdown-item:hover{
       color: #000;
@@ -360,6 +369,13 @@ h1, h2, h3, h4, h5{
 
 
 // Slider
+#carouselBanner{
+  img{
+    @media #{$media_phone}{
+      height: 400px;
+    }
+  }
+}
 .carousel-caption {
     position: absolute;
     right: 0%;
@@ -890,11 +906,27 @@ h1, h2, h3, h4, h5{
     button{
       margin-bottom: 25px;
     }
-    hr{
-      margin-bottom: 40px;
-    }
+    // hr{
+    //   margin-bottom: 40px;
+    // }
+  }
+  #blog_list2_length, #blog_list2_filter, thead{
+    display: none !important;
+  }
+  td{
+    border-top: none;
+    padding: 0;
+  }
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: $theme_color;
+    border-color: $theme_color;
   }
 }
+
+
+
 .blog-box{
   ul{
     list-style: none;
@@ -927,6 +959,9 @@ h1, h2, h3, h4, h5{
   @media #{$media_phone}{
     margin-top: 30px;
 
+  }
+  img{
+    max-height: 500px;
   }
 }
 
@@ -1032,5 +1067,25 @@ h1, h2, h3, h4, h5{
   }
   .fa-trash{
     color: red;
+  }
+}
+
+.sidebar{
+  .active{
+    background: $theme_color;
+    a{
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+  a{
+    font-size: 17px;
+  }
+}
+
+#blog_list1{
+  td, th{
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }

@@ -31,24 +31,24 @@
             <h4 class="sub-title">Our dental clinic has been founded in 2010. The founder is an honorable alumni of NYC's Columbia medical school - Mark Hoffmann, MD.</h4>
             <div class="mt-4">
               <p>
-                We’re glad you hand your dental health concerns to our skilled hands. We’ll make sure to deliver the best possible healthcare to all our
-                patients! Of course, we always complement our main services with a customer service oriented approach.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
               <p>
-                We sincerely believe that visiting a dentist shouldn’t be a frightening or stressful experience! We provide an equally comfortable
-                experience of relaxation for all our young and adult customers! Also we implement a lot of pain management and anesthesia options.
-                <i class="text-body">Everything we do is aimed at making you feel comfortable, while we take care of your oral healthcare!</i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                <i class="text-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</i>
               </p>
               <p>
-                It includes both local anesthesia for mouth-numbing as well as a sedative anesthesia. Altogether, this helps relief any pain which might
-                occur in the process of treatment. All in all, we’ve got it all under control at our BeDentist dental health clinic.
-              </p>
-              <p>
-                We invite you to explore the information about our dental office on our website! Feel free to read our terms and conditions and all
-                the additional info we have posted here.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
               <p class="mb-0">
-                Once our customer, you will be leaving our dental clinic with a bright, wide smile!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
               </p>
             </div>
           </div>
